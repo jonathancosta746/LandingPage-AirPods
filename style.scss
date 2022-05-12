@@ -1,0 +1,27 @@
+//Variables SASS
+
+$header-height: 3rem;
+
+$font-light:300;
+$font-regular: 400;
+$font-bold: 700;
+
+//Variables CSS
+
+//Colors
+
+:root{
+    --biggest-font-seixe:  3.5rem;
+    --bigger-font-size: 2.25rem;
+    --big-font-size: 1.625rem;
+    --normal-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+
+    @media screen and (min-width:768px){
+        --biggest-font-seixe:  8rem;
+        --bigger-font-size: 4.5rem;
+        --big-font-size: 2.5rem;
+        --normal-font-size: 1rem;
+        --smaller-font-size: 0.938rem;
+    }
+}
