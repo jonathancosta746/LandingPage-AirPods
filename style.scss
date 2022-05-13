@@ -290,4 +290,92 @@ img{
 }
 
 /*Media Queries*/
+@media screen and (min-width: 768px) {
+    
+
+body{
+    margin: 0;
+}
+
+.nav {
+    height: $header-height + 1rem;
+
+    &__menu{
+        margin-left: auto;
+    }
+
+    &__list{
+        display: flex;
+    }
+
+    &__item{
+        margin-right: 1.5rem;
+        margin-bottom:0;
+    }
+
+    &__toggle{
+        display: none;
+    }
+}
+
+.home{
+    height: 100vh;
+    grid-template-columns: min-content;
+    grid-template-rows: 80% 10%;
+    grid-template-areas:    "data img"
+                            "scroll scroll";
+    align-content: flex-end;
+    justify-content: center;
+    column-gap: 4rem;
+
+    &__data{
+        grid-area: data;
+        padding: 0;
+        align-self: center;
+        text-align: initial;
+    }
+
+    &__description{
+        padding: 0 5rem 0 0;
+    }
+
+    &__img{
+        grid-area: img;
+        align-self: center;
+        & img{
+            width: 114px;
+            height: 248px;
+        }
+    }
+
+    &__scroll{
+        grid-area: scroll;
+        padding-bottom: 2rem;
+    }
+}
+
+    .details{
+    column-gap: 4rem;
+
+    &__box{
+        margin-bottom: 2rem;
+    }
+
+    &__img{
+        align-self: center;
+        & img{
+            width: 300px;
+        }
+    }
+}
+
+}
+
+@media screen and (min-width: 1200px){
+    .bd-grid{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
 
