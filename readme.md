@@ -8,7 +8,7 @@ Disponível do link https://jonathancosta746.github.io/LandingPage-AirPods/
 Landing Page criada para simulando uma pagina de lançamento dos Airpods.
 
 ## Tecnologias Usadas
-HTML, SASS, JavaScript, GSAP
+HTML, SASS, JavaScript, GSAP e ScrollMagic
 
 
 ##
