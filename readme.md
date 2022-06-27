@@ -1,4 +1,4 @@
-# Landing Page para Hospital ou Clínica
+# Landing Page Lançamento AirPods
 
 🇧🇷
 ## Como visualizar o projeto?
